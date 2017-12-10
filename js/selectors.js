@@ -4,7 +4,7 @@ function paragraphSelector(){
   return para;
 }
 
-function lastimageSelector(){
+function lastImageSelector(){
   var images = $('img:last');
   return images;
 }
