@@ -1,20 +1,24 @@
 // declare your functions here...
-paragraphSelector(){
+function paragraphSelector(){
   var para = $('p');
   return para;
 }
 
-lastimageSelector(){
+function lastimageSelector(){
   var images = $('img:last');
   return images;
 }
 
-ninjaBabySelector(){
+function ninjaBabySelector(){
   var NB = $('#baby-ninja')
   return NB;
 }
 
-divSelector(){
+function divSelector(){
   var divs = $('.pics');
   return divs;
+}
+
+function firstListItem(){
+  var FLI = $('ul li:first-child');
 }
