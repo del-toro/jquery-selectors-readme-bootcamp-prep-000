@@ -21,4 +21,5 @@ function divSelector(){
 
 function firstListItem(){
   var FLI = $('ul li:first-child');
+  return FLI;
 }
