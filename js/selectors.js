@@ -11,4 +11,10 @@ lastimageSelector(){
 
 ninjaBabySelector(){
   var NB = $('#baby-ninja')
+  return NB;
+}
+
+divSelector(){
+  var divs = $('.pics');
+  return divs;
 }
